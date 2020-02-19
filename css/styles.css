@@ -1,0 +1,123 @@
+@font-face {
+    font-family: "Roboto";
+    src: url('../fonts/Roboto-Bold.woff2') format('woff2'),
+    url('../fonts/Roboto-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url('../fonts/Roboto-Medium.woff2') format('woff2'),
+    url('../fonts/Roboto-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url('../fonts/Roboto-Regular.woff2') format('woff2'),
+    url('../fonts/Roboto-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Prompt";
+    src: url('../fonts/Prompt-Bold.woff2') format('woff2'),
+    url('../fonts/Prompt-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+* {
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto", "Arial",sans-serif;
+    background-image: url("../img/background.jpg");
+    background-size: cover;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center center; 
+    background-attachment: fixed;   
+}
+.chipta-quti{
+    width: 400px;
+    background-color: white;
+    margin: 100px  auto;
+    padding: 60px 30px 30px;
+    border-radius: 5px;
+
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+.box-title{
+    justify-content: space-between; 
+    align-items: center;
+}
+.fra{
+    font-family: "Prompt", "Arial", sans-serif;
+    font-weight: 900;   
+    font-size: 50px;
+    color: #9ac6e5;
+    margin: 0;
+}
+.frankfurt{
+    font-size: 13px;
+    margin: 0;
+    color: #c2b3b3;
+}
+.chiziq{
+    height: 5px;
+    width: 40px;    
+    background-color:#d3eee7;
+}
+.title{
+    text-align: right;
+}
+.amesterdam{
+    font-size:13px;
+    margin: 0;
+    padding-top: 0px;
+    color: #c2b3b3;
+}
+.soz{    
+    display: flex;
+}
+.flight-box{
+    width:  33.3%;
+}
+.flight{
+    font-size: 12px;
+    color: #c2b3b3; 
+    margin: 0;
+}
+.raqam{
+    font-weight: bold;
+    margin-top: 5px;
+    text-transform: uppercase;
+}
+.bos{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.list-title{
+    margin-bottom: 40px;
+}
+.item{
+    color: #c2b3b3;
+    margin: 0;
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+.data{
+    margin: 0;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
